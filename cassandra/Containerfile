@@ -1,0 +1,3 @@
+FROM docker.io/library/cassandra:latest
+
+COPY cassandra.yaml /etc/cassandra/cassandra.yaml
